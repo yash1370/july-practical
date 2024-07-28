@@ -1,0 +1,433 @@
+
+html,body {
+    background-color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.max-container {
+    max-width: 1280px;
+    margin: auto;
+}
+.primary-num {
+    margin: 0;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 98px;
+    color: #020749;
+    opacity: 80%;
+}
+.secondary-num {
+    margin: 0;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 98px;
+    color: #EA4D02;
+    opacity: 80%;
+}
+.text-orange {
+    color: #EA4D02;
+}
+.text-blue {
+    color: #020749;
+}
+.text-white {
+    color: #fff;
+}
+.bg-white {
+    background-color: #fff;
+}
+.z-2 {
+    z-index: 2;
+}
+.body-1-medium {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.primary-btn {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #0E2CA0;
+    border-radius: 50px;
+    border: unset;
+    color: rgb(255, 255, 255, 80%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 28px;
+    font-size: 18px;
+}
+.secondary-btn {
+    margin-top: 20px !important;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 50px;
+    border: unset;
+    color: #0E2CA0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 28px;
+    font-size: 18px;
+    margin: auto;
+}
+p {
+    margin: 0;
+}
+.relative {
+    position: relative;
+}
+
+.logo-img {
+    cursor: pointer;
+}
+.hero-section {
+    background-image: url("./media/hero-image.webp");
+    height: 97vh;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px;
+}
+header .lang-links {
+    display: flex;
+    align-items: end;
+    gap: 16px;
+    color: #020749;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+header .nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+header .lang-links span {
+    border: 1px solid #020749;
+    display: block;
+    height: 20px;
+    opacity: 60%;
+}
+.active {
+    text-decoration: underline;
+}
+.hero-section .nav-links {
+    position: absolute;
+    right: 0;
+    top: 17%;
+}
+.nav-links .nav-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: end;
+    color: #020749;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    padding-bottom: 16px;
+}
+
+.nav-links .nav-title span {
+    border: 1px solid;
+    transform: rotate(0deg);
+    width: 50px;
+    display: block;
+}
+
+.slider-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+}
+.slider-control .slider-dots {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.slider-control .slider-dots .circle {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+.circle-active {
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+/* about us section */
+
+.about-section {
+    background: #263EB61A;
+}
+.about-container {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.about-container .about-content {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 90px;
+}
+.about-container .about-gallery {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.about-gallery .icons {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.about-gallery .img-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 28px;
+    color: #fff;
+}
+.about-content .about-review {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.about-section .nav-links{
+    position: absolute;
+    right: 0;
+    top: 22%;
+}
+.about-section .cutout-img {
+    position: absolute;
+    top: 26px;
+    left: -15px;
+    z-index: 1;
+}
+
+/* field section */
+
+.field-section {
+    background-image: url("./media/field-image.webp");
+    height: 85vh;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.field-section .field-cutout-img {
+    position: absolute;
+    top: 30%;
+}
+
+.field-cutout-img img {
+    opacity: 14%;
+}
+
+.field-section .nav-links{
+    position: absolute;
+    right: 0;
+    top: 35%;
+}
+.field-section .nav-links .nav-title {
+    color: #fff;
+}
+.field-section .field-content {
+    text-align: center;
+    width: 33%;
+    margin: auto;
+}
+.field-section .field-gallery {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 70px;
+}
+.field-gallery .img-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 26px;
+    color: #fff;
+}
+
+/* KPI section  */
+
+.kpi-section {
+    background-image: url("./media/kpi-hero-img.webp");
+    height: 100vh;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.kpi-content {
+    display: flex;
+    align-items: center;
+    padding-top: 105px;
+    justify-content: space-evenly;
+}
+.kpi-content div {
+    width: 17%;
+    text-align: center;
+}
+.kpi-section .nav-links{
+    position: absolute;
+    right: 0;
+    top: 45%;
+}
+
+/* client section */
+
+.client-section {
+    background-image: url("./media/client-hero-img.webp");
+    height: 88vh;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.client-section .client-cutout-img {
+    position: absolute;
+    bottom: -3px;
+    left: -30px;
+}
+.client-cutout-img img {
+    opacity: 20%;
+}
+.client-section .client-content {
+    width: 42%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+}
+.client-content h3 {
+    margin: 0;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.client-content p {
+    font-size: 20px;
+}
+.client-details {
+    padding-top: 40px;
+}
+.client-details h4 {
+    margin: 0;
+    padding-top: 35px;
+    font-size: 22px;
+}
+.client-section .nav-links{
+    position: absolute;
+    right: 0;
+    top: 40%;
+}
+.client-section .nav-links .nav-title {
+    color: #fff;
+}
+
+/* project section */
+
+.project-section {
+    background-image: url("./media/project-hero-img.webp");
+    height: 88vh;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.project-section .project-box {
+    width: 25%;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    border-right: 1px solid #FFFFFF85;
+}
+.project-box div {
+    width: 100%;
+    padding: 28px 20px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #263EB6E5;
+}
+.project-box .project-size {
+    font-size: 12px;
+    padding-top: 10px;
+    color: rgb(255, 255, 255, 80%);
+}
+.project-box .secondary-btn {
+    margin: 0px;
+    padding: 10px 22px;
+    font-size: 14px;
+    display: none;
+    transition: display 0.8s linear;
+}
+.project-box:hover .secondary-btn {
+    display: flex;
+}
+
+/* contact section */
+
+.contact-section {
+    background-image: url("./media/contact-hero-img.webp");
+    height: 88vh;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.contact-content {
+    padding-top: 70px;
+}
+.contact-content h5 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 500;
+}
+.contact-content .contact-info {
+    display: grid;
+    gap: 80px;
+    grid-template-columns: 20% 25% 33%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 90%;
+    border-bottom: 1px solid #D9D9D9;
+}
+.contact-info h6 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 14px;
+}
+.contact-info p {
+    font-size: 14px;
+    padding-bottom: 10px;
+    line-height: 150%;
+}
+.contact-section .nav-links{
+    position: absolute;
+    right: 0;
+    top: 40%;
+}
+.contact-section .nav-links .nav-title {
+    color: #fff;
+}
